@@ -1,5 +1,6 @@
 /*
- * A simple Star Trek themed Hello World app
+ * A Star Trek language translator
+ * Select a ST language, receive "Hello World" in that language
  * 
  * @author Lee Gainer, winterfive
  * @since October 2017
@@ -32,8 +33,6 @@ public class Client {
 
 	/*
 	 *  Scanner gets user input and validates it
-	 *  Changes all chars to upper case
-	 *  Returns String, selectedLang
 	 *  String -> String
 	 */
 	private static String getLanguage() {
@@ -77,7 +76,6 @@ public class Client {
 
 	/*
 	 *  Checks String parameter for inclusion in enum languages
-	 *  Returns Boolean
 	 *  String -> Boolean
 	 */
 	public static boolean contains(String test) {
